@@ -44,5 +44,5 @@ h1 img {width: 280px;}
 
 
 .sns {position: fixed; top: 60px; right: 50px;}
-.sns li {display: inline-block; margin-left: 20px; font-size: 25px; color: #d9fb05; opacity: 0.5; transition: 0.5s;}
+.sns li {display: inline-block; margin-left: 20px; font-size: 25px; color: #ffffff; opacity: 0.5; transition: 0.5s;}
 .sns li:hover {transform: scale(1.4); opacity: 1;}

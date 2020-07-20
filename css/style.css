@@ -69,6 +69,9 @@ h1 img {width: 280px;}
 .side .con > p > em {font: bold normal 16px/1.7 arial; color: #a0bd50; transform: skew(40deg); display: block;} /* em은 인라인성격이고 transform이 먹히지 않아서 자체적으로 display:block를 줘야함 */
 
 
+.side .btnContents {position: absolute; bottom: 40px; left: 0px; color: #b9fb05; font-size: 60px; transform: skew(40deg);}
+
+
 
 
 

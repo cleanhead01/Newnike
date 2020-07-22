@@ -12,7 +12,9 @@
 <body>
 
 	<figure class="vid"> <!-- 의미는 div랑 똑같음 -->
-		<video autoplay muted loop src="img/nike.mp4"></video> <!-- 크롬에서는 autoplay의 muted라는 음소거를 달아줘야 자동 재생이 가능함 -->
+		<video autoplay muted loop src="img/nike.mp4">
+			<track src="img/nike.vtt" kind="subtitles" srclang="kr" label="기본한국어" default>
+		</video> <!-- 크롬에서는 autoplay의 muted라는 음소거를 달아줘야 자동 재생이 가능함 -->
 	</figure>
 
 	<header class="header">
@@ -89,9 +91,14 @@
 			<i class="fas fa-angle-double-left"></i>
 		</div>
 	</section>
+
+
+
+	 
+
+
 </body>
 </html>
-
 
 
 
